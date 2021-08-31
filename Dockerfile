@@ -69,8 +69,6 @@ RUN git clone -b main https://github.com/mrsammy07/innexia /root/innexiaBot
 WORKDIR /root/innexiaBot
 
 #Copy config file to /root/innexiaBot/innexiaBot
-COPY ./innexiaBot/sample_config.py ./innexiaBot/config.py* /root/innexiaBot/innexiaBot/
-
 ENV PATH="/home/bot/bin:$PATH"
 
 # Install requirements
